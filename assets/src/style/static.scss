@@ -1,0 +1,45 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #231F1F;
+}
+
+.white {
+    color: $white
+}
+
+.undertext {
+    color: $undertext;
+}
+
+.hidden {
+    display: none;
+}
+
+.unhidden {
+    display: block;
+}
+
+.blue-text {
+    color: #5B78B9;
+}
+
+@media(min-width: 375px) {
+    section {
+        max-width: 375px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        display: flex;
+    }
+
+    section {
+        max-width: 782px;
+        margin: 0;
+    }
+}

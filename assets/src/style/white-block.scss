@@ -1,0 +1,433 @@
+@media (min-width: 375px) {
+    .rightside {
+        padding: 0 16px 16px;
+
+        .right-title {
+            font-weight: 800;
+            font-size: 24px;
+            line-height: 24px;
+            margin-bottom: 24px;
+        }
+
+        .amnt-fee {
+            display: none;
+        }
+
+        .payment-hidd {
+            display: none;
+        }
+
+        .first-title {
+            margin-top: 124px;
+        }
+
+        .inp-border {
+            border: 2px solid #B3B3B3;
+            box-sizing: border-box;
+            border-radius: 6px;
+        }
+
+        .inp-border:focus {
+            outline: none;
+            border-color: #2931EB;
+        }
+
+        .no-border {
+            border: 0;
+            border-radius: 6px;
+        }
+
+        #pmethods {
+            min-width: 100%;
+        }
+
+        .input-name {
+            margin: 0 0 8px 0;
+            font-weight: 600;
+        }
+
+        .mobile-select {
+            margin-bottom: 36px;
+        }
+
+        .desktop-select {
+            display: none;
+        }
+
+        .amount-header {
+            display: flex;
+            justify-content: space-between;
+
+            .fee {
+                color: #939393;
+            }
+
+            .fee-hidd {
+                display: none;
+            }
+        }
+
+        .amount {
+            display: flex;
+            justify-content: space-between;
+
+            #amnt {
+                -webkit-appearance: none !important;
+                border-right: 0px;
+                width: 300px;
+                padding: 0 0 0 16px;
+                line-height: 42px;
+                outline: none;
+                color: #231F1F;
+                font-size: 16px;
+                font-weight: 500;
+            }
+
+            #amnt2 {
+                -webkit-appearance: none !important;
+                width: 50px;
+                padding: 0 16px 0 0;
+                line-height: 42px;
+                margin: 0 0 0 -20px;
+                font-weight: 600;
+                color: #B3B3B3;
+            }
+        }
+
+        .inp-big {
+            min-height: 84px;
+            max-height: 84px;
+            width: 100%;
+            padding: 12px 16px;
+        }
+
+        .amount,
+        .account,
+        .phone,
+        .msg {
+            margin-bottom: 12px;
+        }
+
+        .captcha {
+            margin-bottom: 18px;
+            display: flex;
+            justify-content: space-between;
+
+            .inp-border {
+                width: 251px;
+                line-height: 42px;
+                padding-left: 16px;
+            }
+
+
+
+            .no-border {
+                width: 82px;
+                text-align: center;
+                font-family: 'Gloria Hallelujah', cursive;
+                font-weight: 900;
+                line-height: 42px;
+                color: #000000;
+            }
+        }
+
+        .account,
+        .phone {
+            input {
+                min-width: 100%;
+                font-weight: 600;
+                line-height: 42px;
+                padding-left: 16px;
+            }
+        }
+
+        .agreement {
+            font-size: 15px;
+            margin-bottom: 28px;
+
+            a {
+                color: #2931EB;
+                text-decoration: underline;
+            }
+
+            a:hover {
+                text-decoration-color: rgba(41, 49, 235, 0.3);
+                -moz-text-decoration-color: rgba(41, 49, 235, 0.3);
+            }
+        }
+
+        .form-btn {
+            font-size: 18px;
+            line-height: 46px;
+            text-align: center;
+            background: #2931EB;
+            border-radius: 6px;
+            width: 100%;
+            border: none;
+        }
+
+        .form-btn:hover {
+            box-shadow: 0px 4px 12px rgba(41, 49, 235, 0.25);
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .rightside {
+        width: 782px;
+        padding: 36px 36px 60px;
+
+        .method-box {
+            display: none;
+        }
+
+        .desktop-select {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 62px;
+
+            .desktop-select-option {
+                height: 143px;
+                width: 170px;
+                text-align: center;
+
+                margin-bottom: 24px;
+
+                .logo-box {
+                    line-height: 100px;
+                    cursor: pointer;
+                    border: 3px solid #EDF2FD;
+                    margin-bottom: 7px;
+                    background: #EDF2FD;
+                    border-radius: 6px;
+                    -webkit-border-radius: 6px;
+                    -moz-border-radius: 6px;
+                    -ms-border-radius: 6px;
+                    -o-border-radius: 6px;
+                }
+
+                .logo-box-pick {
+                    background: transparent;
+                    border: 3px solid #2931EB;
+                }
+
+                p {
+                    margin-bottom: 0;
+                    line-height: 18px;
+                }
+
+                .select-text {
+                    font-weight: 600;
+
+                    .select-text--fee {
+                        font-weight: 400;
+                    }
+                }
+            }
+
+            .logo-box:hover,
+            .logo-box:focus-within {
+                background: transparent;
+                border: 3px solid #2931EB;
+                outline: 0;
+            }
+        }
+
+        .desktop-select-option:nth-child(n) {
+            margin-right: 10px;
+        }
+
+        .desktop-select-option:nth-child(4) {
+            margin-right: 0;
+        }
+
+        .payment-hidd {
+            display: block;
+        }
+
+        .payment-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 24px;
+
+            :nth-child(n) {
+                margin-bottom: 0;
+            }
+        }
+
+        .payment-nav {
+            margin-bottom: 14px;
+
+            .nav-list {
+                display: flex;
+                justify-content: space-around;
+                background: #EDF2FD;
+                border-radius: 5px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                -ms-border-radius: 5px;
+                -o-border-radius: 5px;
+                line-height: 36px;
+
+                .list-item {
+                    width: 100%;
+                    text-align: center;
+                    cursor: pointer;
+                }
+
+                .list-item:hover {
+                    background: #2931EB;
+                    background-size: cover;
+                    color: white;
+                }
+
+                .list-item:first-of-type:hover {
+                    border-radius: 5px 0px 0px 5px;
+                    -webkit-border-radius: 5px 0px 0px 5px;
+                    -moz-border-radius: 5px 0px 0px 5px;
+                    -ms-border-radius: 5px 0px 0px 5px;
+                    -o-border-radius: 5px 0px 0px 5px;
+                }
+
+                .list-item:last-of-type:hover {
+                    border-radius: 0px 5px 5px 0px;
+                    -webkit-border-radius: 0px 5px 5px 0px;
+                    -moz-border-radius: 0px 5px 5px 0px;
+                    -ms-border-radius: 0px 5px 5px 0px;
+                    -o-border-radius: 0px 5px 5px 0px;
+                }
+            }
+        }
+
+        .amount-box {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 12px;
+
+            .amount-header {
+                order: 1;
+
+                .amnt-name {
+                    line-height: 42px;
+                    margin-bottom: 0
+                }
+
+                .fee {
+                    display: none;
+                }
+
+            }
+
+            .amount {
+                order: 2;
+                margin-bottom: 0;
+                justify-self: end;
+
+                #amnt {
+                    -webkit-appearance: none !important;
+                    border-right: 0px;
+                    width: 268px;
+                    padding: 0 0 0 16px;
+                    line-height: 42px;
+                    outline: none;
+                    color: #231F1F;
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+
+                #amnt2 {
+                    -webkit-appearance: none !important;
+                    width: 50px;
+                    padding: 0 16px 0 0;
+                    line-height: 42px;
+                    margin: 0 10px 0 -10px;
+                    font-weight: 600;
+                    color: #B3B3B3;
+                }
+            }
+
+            .amnt-fee {
+                display: block;
+                height: 42px;
+
+                .fee {
+                    color: #939393;
+                    line-height: 21px;
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        .account,
+        .phone {
+            display: flex;
+
+            input {
+                min-width: 0;
+                width: 308px;
+            }
+        }
+
+        .account {
+            p {
+                margin-right: 47px;
+                line-height: 42px;
+                margin-bottom: 0;
+            }
+        }
+
+        .phone {
+            p {
+                margin-right: 178px;
+                line-height: 42px;
+                margin-bottom: 0;
+            }
+        }
+
+        .msg {
+            display: flex;
+            justify-content: space-between;
+
+            p {
+                line-height: 42px;
+                margin-bottom: 0;
+            }
+
+            .inp-big {
+                width: 484px;
+                min-height: 137px;
+                max-height: 137px;
+            }
+        }
+
+        .captcha-box {
+            display: flex;
+            margin-bottom: 24px;
+
+            p {
+                margin-right: 120px;
+                line-height: 42px;
+                margin-bottom: 0;
+            }
+
+            .captcha {
+                margin: 0;
+
+                .inp-border {
+                    margin-right: 8px;
+                }
+            }
+        }
+
+        .agreement {
+            width: 488px;
+            margin-left: 228px;
+            margin-bottom: 31px;    
+        }
+
+        .form-btn {
+            width: 210px;
+            margin-left: 228px;
+        }
+    }
+}
