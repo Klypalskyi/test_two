@@ -7894,10 +7894,12 @@ a.text-dark:hover, a.text-dark:focus {
           width: 100%;
           text-align: center;
           cursor: pointer; }
-        .rightside .payment-nav .nav-list .list-item:hover {
+        .rightside .payment-nav .nav-list .list-item:hover,
+        .rightside .payment-nav .nav-list .list-item:focus {
           background: #2931EB;
           background-size: cover;
-          color: white; }
+          color: white;
+          outline: 0; }
         .rightside .payment-nav .nav-list .list-item:first-of-type:hover {
           border-radius: 5px 0px 0px 5px;
           -webkit-border-radius: 5px 0px 0px 5px;

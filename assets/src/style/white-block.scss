@@ -275,10 +275,12 @@
                     cursor: pointer;
                 }
 
-                .list-item:hover {
+                .list-item:hover,
+                .list-item:focus {
                     background: #2931EB;
                     background-size: cover;
                     color: white;
+                    outline: 0;
                 }
 
                 .list-item:first-of-type:hover {
